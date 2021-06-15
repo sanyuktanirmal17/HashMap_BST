@@ -10,8 +10,13 @@
 public class Runner {
 
 	public static void main(String[] args) {
-		Map<String,Integer> mymap=new Map<>();
-		
+		Map<String,Integer> map=new Map<>();
+		map.put("To", 0);
+		map.put("be", 1);
+		map.put("or", 0);
+		map.put("not",0);
+		map.put("to", 0);
+		map.put("be", 2);
 		
 	}
 
