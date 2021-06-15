@@ -59,18 +59,18 @@ public class BinaryTree {
 	}
 
 	/**
-		 * data taken for search method 
-		 * @param data
-		 */
-		public void Search(int data, root, node) {
-			int temp;
-		if ( temp< root.data) {
-            search(root.left, data, root);
-        }
-        else {
-            search(root.right, data, root);
-      }
+	 * data taken for search method 
+	 * @param data
+	 */
+	public void Search(int data, root, node) {
+		int temp;
+	if ( temp< root.data) {
+        search(root.left, data, root);
     }
+    else {
+        search(root.right, data, root);
+  }
+}
 
 	/**
 	 * size of the tree
